@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.menu{
+    background-color: #333232;
+    height:calc( 100vh);
+    width:100%;
+
+}
+.main-color{
+    color: #F7CCAC !important;
+}
+.main-bg{
+    background-color: #f7cdac;
+   
+}
+.nav-link:hover{
+    background-color: #f7cdac;
+    color:#333232 !important;
+}
+
+.coffee-image{
+    width: 100%;
+    height: calc(100vh - 56px);
+    background-image: url(./img/coffee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.coffee-image .coffee-text{
+    color: white;
+
+}
+
+.img-col{
+    height:100%;
+    width:fit-content;
+    border-radius: 10px 0  0 10px;
+}
+.coffee-text{
+    font-family: 'Source Code Pro', monospace;
+    text-transform: capitalize;
+}
+
+
+footer{
+    background-color: #333232;
+}
+footer p{
+    color:#f7cdac;
+}
+footer p a {
+    color:#fac298;
+
+}
+footer p a:hover{
+    color:white;
+}
