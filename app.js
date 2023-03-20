@@ -1,14 +1,18 @@
 
 
-function order(){
+
     const userName = prompt(" what is your name ?");
     let userGender = prompt(" what is your Gender ?");
     
-    while(userGender != 'male' && userGender !="female"){
+  
+    function gender(){
+        while(userGender != 'male' && userGender !="female"){
         
-       userGender = prompt(" enter the correct gender");
+            userGender = prompt(" enter the correct gender");
+         }
     }
-    
+    gender();
+
     if(userGender === 'male'){
         alert("Welcome Mr." + userName);
         
@@ -28,6 +32,6 @@ function order(){
     for (let i = 0; i < info.length; i++){
         console.log(info[i]);
     }
-}
 
-order();
+
+
