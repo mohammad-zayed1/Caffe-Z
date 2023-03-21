@@ -1,31 +1,4 @@
 
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     const userName = prompt(" what is your name ?");
     let userGender = prompt(" what is your Gender ?");
     let userAge = prompt(" what is your Age ?");
