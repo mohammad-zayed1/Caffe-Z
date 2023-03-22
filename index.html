@@ -21,6 +21,11 @@
       rel="stylesheet"
     />
     <title>Caffe Z</title>
+    <style>
+      form{
+        padding: 20px;
+      }
+    </style>
   </head>
   <body>
     <header class="menu">
@@ -72,9 +77,42 @@
         </div>
       </div>
     </header>
-    <div id="userInfo"></div>
+  <h2>User Order</h2>
+    <form action="" id="form">
+      <p>
+        <label for="userName">User Name: </label><br>
+        <input type="text" name="userName" id="userName">
+      </p>
+      <p>
+        <label for="userAge"> User Age: </label><br>
+        <input type="text" name="userAge" id="userAge">
+      </p>
+      <p>
+        <label for="drinkName">Drink Name: </label><br>
+        <input type="text" name="drinkName" id="drinkName">
+      </p>
+      <p>
+        <input type="checkbox" name="drinkTypeHot" id="hot" value="hot">
+        <label for="hot">Hot</label>
+      <span>--- or ---</span>
+      <input type="checkbox" name="drinkType" id="cold" value="cold">
+        <label for="cold">Cold</label>
+      </p>
+
+     <p>
+      <input type="submit" value="Submit">
+     </p>
+    </form>
+    <h2>User Information</h2>
+    <div id="userInfo">
+
+    </div>
+
     <footer class="p-2 d-flex justify-content-center align-items-center">
-      <p class="copyright m-0 p-2">Made With &hearts; By <a href="mailto: mzayed2001@hotmail.com">Mohammad Zayed</a> &copy; 2023</p>
+      <p class="copyright m-0 p-2">
+        Made With &hearts; By
+        <a href="mailto: mzayed2001@hotmail.com">Mohammad Zayed</a> &copy; 2023
+      </p>
     </footer>
 
     <!-- bootstrap script -->
