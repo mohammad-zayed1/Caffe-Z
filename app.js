@@ -50,7 +50,6 @@
         drinkType =  checkBoxes[0].value;
         else{
             drinkType =  checkBoxes[1].value;
-
         }
       
     // if(e.target.drinkTypeHot.checked === true) {
